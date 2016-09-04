@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Innosphere</title>
+	<link rel="stylesheet" href="styles/slick.css">
+	<link rel="stylesheet" href="styles/main.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="js/slick.js"></script>
+
+</head>
+<body>
+	<div class="content">
+		<header>
+			<div class="c-contacts">
+				<div class="c-contacts__item">
+					<p><img src="img/icon-mail.png" alt=""> Ask us questions</p>
+					<p><a href="mailto:info@innosphere.com">info@innosphere.com</a></p>
+				</div>
+				<div class="c-contacts__item">
+					<p><img src="img/icon-phone.png" alt=""> Contact us via phone</p>
+					<p>+44 20 7946 0041 3685</p>
+				</div>
+				<div class="c-contacts__item">
+					<p><img src="img/icon-visit.png" alt=""> Visit our office</p>
+					<p>2945 Rinehart Road, Sunrise</p>
+				</div>			
+			</div>
+			<div class="l-nav">
+				<ul class="c-menu">
+					<a href="#"><li class="c-menu__item">Homepage</li></a>
+					<a href="#"><li class="c-menu__item">Search</li></a>
+					<a href="#"><li class="c-menu__item is--active">Recent images</li></a>
+					<a href="#"><li class="c-menu__item">About</li></a>
+					<a href="#"><li class="c-menu__item">Testimonials</li></a>
+					<a href="#"><li class="c-menu__item">Sponsors</li></a>
+					<a href="#"><li class="c-menu__item">Team</li></a>
+					<a href="#"><li class="c-menu__item">Contact</li></a>
+				</ul>
+				<ul class="c-socials">
+					<a href="http://facebook.com"><li class="c-socials__item"><img src="img/facebook.png" alt="Facebook"></li></a>
+					<a href="http://linkedin.com"><li class="c-socials__item"><img src="img/linkedin.png" alt="Linkedin"></li></a>
+					<a href="http://behance.net"><li class="c-socials__item"><img src="img/behance.png" alt="Behance"></li></a>
+				</ul>
+			</div>
+			<div class="c-slogan-wrapper">
+				<div class="c-slogan-wrapper__slogan">
+					<h2>Your beautiful handcrafted stock photography marketplace.</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis tortor non ipsum condimentum molestie...</p>
+				</div>
+				<button class="c-slogan-wrapper__button button">Know More</button>
+			<div class="c-search-container__wrapper">
+				<div class="c-search-container">
+					<button class="c-search-container__button"><img src="img/magnifier.png" alt="Search"></button>
+					<input type="search" class="c-search-container__search" placeholder="Search all galleries" />
+				</div>
+			</div>
+			</div>
+		</header>
+
+		<div class="search">
+			<form action="" class="filters">
+				<div class="table-row">
+					<div class="filter">
+						<h5>Categories</h5>
+						<select name="categories">
+							<option value="Architecture">Architecture</option>
+							<option value="People">People</option>
+							<option value="Cars">Cars</option>
+							<option value="Movies">Movies</option>
+						</select>
+						<div class="select-button"></div>
+						<div class="select__arrow"></div>
+					</div>
+					<div class="filter">
+						<h5>License Type</h5>
+						<select name="license-type">
+							<option value="Creative">Creative</option>
+							<option value="Fantasy">Fantasy</option>
+							<option value="Classic">Classic</option>
+							<option value="Modern">Modern</option>
+						</select>
+						<div class="select-button"></div>
+						<div class="select__arrow"></div>
+					</div>
+					<div class="filter">
+					<h5>Image Size</h5>
+						<select name="image-size">
+							<option value="XXXL">XXXL</option>
+							<option value="XXL">XXL</option>
+							<option value="M">M</option>
+							<option value="S">S</option>
+						</select>
+						<div class="select-button"></div>
+						<div class="select__arrow"></div>
+					</div>
+					<div class="filter">
+						<h5>Color</h5>
+						<div class="hexcolor">HEX. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div><div class="hexcolor" contenteditable>#F6546A</div><input type="button" id="colorpicker" name="color" value="APPLY">
+					</div>
+				</div>
+				<div class="table-row">
+					<div class="filter">
+						<h5>Browse</h5>
+						<select name="browse">
+							<option value="Most Viewed">Most Viewed</option>
+							<option value="Recent">Recent</option>
+							<option value="Year">Year</option>
+							<option value="Popular">Popular</option>
+						</select>
+						<div class="select-button"></div>
+						<div class="select__arrow"></div>
+					</div>
+					<div class="filter">
+						<h5>Location</h5>
+						<select name="location">
+							<option value="Worldwide">Worldwide</option>
+							<option value="USA">USA</option>
+							<option value="Acer">Acer</option>
+							<option value="Asus">Asus</option>
+						</select>
+						<div class="select-button"></div>
+						<div class="select__arrow"></div>
+					</div>
+					<div class="filter">
+						<h5>Adult Content</h5>
+						<input type="radio" class="radio" name="adult" value="yes" id="yes"><label for="yes" class="filter-adult">Yes</label><input type="radio" class="radio"  name="adult" value="no" id="no" checked><label for="no" class="filter-adult">No</label>
+					</div>
+					<div class="filter">
+						<button type="submit" class="filter__button button">Start your search</button>
+					</div>
+				</div>
+			</form>
+
+			<h3>Over 40 Million Stock Photos, Vectors, Videos, and Music Tracks</h3>
+			<p class="search__search-text">Search for images anywhere using our award-winning iPad®, iPhone®, and Android® apps. Functional enough to use alone, beautiful enough to show off to clients.</p>
+		</div>
+
+		<div class="recent">
+			<h2>Recently uploaded</h2>
+			<div class="gallery">
+				<div class="gallery__container">
+					<div class="img-container">
+						<img src="img/1.png" alt="">
+						<div class="img-container__desc">
+							<div class="img-container__text">
+								Old man from India <blockquote>By Frank Tucker</blockquote>
+							</div>
+						</div>
+					</div>
+					<div class="img-container">
+						<img src="img/2.png" alt="">
+						<div class="img-container__desc">
+							<div class="img-container__text">
+								Old man from India <blockquote>By Frank Tucker</blockquote>
+							</div>
+						</div>
+					</div>
+				</div><div class="gallery__container">
+					<div class="img-container">
+						<img src="img/3.png" alt="">
+						<div class="img-container__desc">
+							<div class="img-container__text">
+								Old man from India <blockquote>By Frank Tucker</blockquote>
+							</div>
+						</div>
+					</div>
+				</div><div class="gallery__container">
+					<div class="img-container">
+						<img src="img/4.png" alt="">
+						<div class="img-container__desc">
+							<div class="img-container__text">
+								Old man from India <blockquote>By Frank Tucker</blockquote>
+							</div>
+						</div>
+					</div>
+				</div><div class="gallery__container">
+					<div class="img-container">
+						<img src="img/5.png" alt="">
+						<div class="img-container__desc">
+							<div class="img-container__text">
+								Old man from India <blockquote>By Frank Tucker</blockquote>
+							</div>
+						</div>
+					</div>
+					<div class="img-container">
+						<img src="img/6.png" alt="">
+						<div class="img-container__desc">
+							<div class="img-container__text">
+								Old man from India <blockquote>By Frank Tucker</blockquote>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="button-wrapper">
+				<button type="button" class="button recent-button">Load more</button>
+			</div>
+		</div>	
+		
+		<div class="about-stock">
+			<h2>About Stock photography</h2>
+			<div class="about-stock__image">
+				<div class="about-stock__overlay"></div>
+				<h3>What is Stock Photography?</h3>
+				<p>Supply of photographs, which are often licensed for specific uses. It is used to fulfill the needs of creative assignments in-<wbr>stead of hiring a photographer, often for a lower cost. Today, stock images can be presented in searchable online data-<wbr>bases. They can be purchased and delivered online. </p>			
+			</div>
+			<button class="c-about-stock__button button">Know More</button>
+		</div>
+
+		<div class="testimonials">
+			<h2>Hear what our customers are saying</h2>
+			<div class="reviews">
+				<div class="review">
+					<div class="review__parenthesis parenthesis-f"><img src="img/parenthesis.png" alt=""></div>
+					<div class="review__text">
+						“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula consequat velit eget iaculis.”
+					</div>
+					<div class="review__signup">
+						Jennifer R. Rhoades, CEO, Bubblesphere
+					</div>
+					<div class="review__photo">
+						<img src="img/jennifer.png" alt="">
+					</div>
+				</div>
+				<div class="review">
+					<div class="review__parenthesis parenthesis-m"><img src="img/parenthesis.png" alt=""></div>
+					<div class="review__text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula consequat velit eget iaculis. 
+					</div>
+					<div class="review__signup">
+						Matthew J. Sears, Founder of Feedclub
+					</div>
+					<div class="review__photo">
+						<img src="img/matthew.png" alt="">
+					</div>				
+				</div>
+			</div>
+		</div>
+
+		<div class="sponsors">
+			<h2>Our sponsors</h2>
+			  <div class="center slider">
+			    <div class="slider-item">
+					<img src="img/sponsor-woo.png">
+				</div>
+				<div class="slider-item">
+					<img src="img/sponsor-envato.png">
+				</div>
+				<div class="slider-item">
+					<img src="img/sponsor-wordpress.png">
+				</div>
+				<div class="slider-item">
+					<img src="img/sponsor-dribble.png">
+				</div>
+				<div class="slider-item">
+					<img src="img/sponsor-jquery.png">
+				</div>
+				<div class="slider-item">
+					<img src="img/sponsor-woo.png">
+				</div>
+				<div class="slider-item">
+					<img src="img/sponsor-envato.png">
+				</div>
+				<div class="slider-item">
+					<img src="img/sponsor-wordpress.png">
+				</div>
+				<div class="slider-item">
+					<img src="img/sponsor-dribble.png">
+				</div>
+				<div class="slider-item">
+					<img src="img/sponsor-jquery.png">
+				</div>
+			  </div>
+		</div>
+
+		<div class="team">
+			<h2>Meet our team</h2>
+			<ul class="our-team">
+	  			<li>
+	      			<div class="our-team__member">
+	        			<img src="img/team-pat.png">
+	        			<h4>Patricia Wright</h4>
+	        			<blockquote>Lead Developer</blockquote>
+	        			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et feugiat mi. Sed lacinia euismod convallis.</p>
+	        			<div class="our-team__contacts">
+	        				<a href="http://twitter.com"><button class="social twitter"><img src="img/icon-twitter.png" alt=""></button></a>
+	        				<a href="http://facebook.com"><button class="social facebook"><img src="img/icon-facebook.png" alt=""></button></a>
+	        				<a href="http://dribbble.com"><button class="social dribbble"><img src="img/icon-dribbble.png" alt=""></button></a>
+	        				<a href="http://pinterest.com"><button class="social pinterest"><img src="img/icon-p.png" alt=""></button></a>
+	        			</div>
+	    			</div>
+				</li>
+				<li>
+	      			<div class="our-team__member">
+	        			<img src="img/team-james.png">
+	        			<h4>James C. Cotter</h4>
+	        			<blockquote>CEO</blockquote>
+	        			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et feugiat mi. Sed lacinia euismod convallis.</p>
+	        			<div class="our-team__contacts">
+	        				<a href="http://twitter.com"><button class="social twitter"><img src="img/icon-twitter.png" alt=""></button></a>
+	        				<a href="http://facebook.com"><button class="social facebook"><img src="img/icon-facebook.png" alt=""></button></a>
+	        				<a href="http://dribbble.com"><button class="social dribbble"><img src="img/icon-dribbble.png" alt=""></button></a>
+	        				<a href="http://pinterest.com"><button class="social pinterest"><img src="img/icon-p.png" alt=""></button></a>
+	        			</div>        			
+	    			</div>
+				</li>
+				<li>
+	      			<div class="our-team__member">
+	        			<img src="img/team-sarah.png">
+	        			<h4>Sarah Cole</h4>
+	        			<blockquote>Web Designer</blockquote>
+	        			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et feugiat mi. Sed lacinia euismod convallis.</p>
+	        			<div class="our-team__contacts">
+	        				<a href="http://twitter.com"><button class="social twitter"><img src="img/icon-twitter.png" alt=""></button></a>
+	        				<a href="http://facebook.com"><button class="social facebook"><img src="img/icon-facebook.png" alt=""></button></a>
+	        				<a href="http://dribbble.com"><button class="social dribbble"><img src="img/icon-dribbble.png" alt=""></button></a>
+	        				<a href="http://pinterest.com"><button class="social pinterest"><img src="img/icon-p.png" alt=""></button></a>
+	        			</div>        			
+	    			</div>
+				</li>
+			</ul>
+		</div>
+
+		<div class="our-map">
+		</div>
+
+		<div class="our-contacts">
+			<h2>Get in touch with us</h2>
+			<form action="">
+				<input type="text" placeholder="First name" class="our-contacts__form-input">
+				<input type="text" placeholder="Last name" class="our-contacts__form-input">
+				<input type="email" placeholder="Email" class="our-contacts__form-input">
+				<input type="number" placeholder="Phone number" class="our-contacts__form-input">
+				<textarea name="" id="" cols="30" rows="10" placeholder="Message" class="our-contacts__form-message"></textarea>
+				<input type="submit" value="Send Message" class="form__submit button">
+			</form>
+			<div class="our-contacts__contacts">
+				
+				<div class="our-contacts__address">
+					<img src="img/icon-address.png" alt=""> Our address
+				</div>
+				
+				<div class="table">
+					<div class="table-row">
+						<p>Address: </p><span>3497 Gateway Road Portland, OR&nbsp;97217</span>
+					</div>
+					<div class="table-row">
+						<p>Phone: </p><span>(229) 503-289-9830</span>
+					</div>
+					<div class="table-row">
+						<p>Email: </p><span>www.mobilecom.com</span>
+					</div>
+				</div>
+
+				<div class="our-contacts__address">
+					<img src="img/icon-about-us.png" alt=""> About us
+				</div>
+				<span>Lorem ipsum dolor sit amet, con<wbr>sectetur adipisicing elit. Nunc gravi<wbr>da dapibus sapien.</span>
+			</div>
+		</div>
+	
+	<footer>
+		<div class="links">
+			<a href="http://facebook.com"><img src="img/icon-footer-facebook.png" alt=""></a>
+			<a href="http:/twitter.com"><img src="img/icon-footer-t.png" alt=""></a>
+			<a href="http://linkedin.com"><img src="img/icon-footer-linkedin.png" alt=""></a>
+			<a href="https://vimeo.com"><img src="img/icon-footer-vimeo.png" alt=""></a>
+		</div>
+		<p>© 2015 Innosphere - All rights reserved - made by Vid Kraljić Radulović</p>
+	</footer>
+	</div>
+	<script>
+		/*window.onload = function() {
+			var color = 'HEX. &nbsp;&nbsp;&nbsp;&nbsp;' + document.querySelector('#colorpicker').value;
+  			hexcolor = document.querySelector('#hexcolor');
+  			hexcolor.innerHTML = color;
+
+			document.getElementById('colorpicker').addEventListener('change', function() {
+		    	var color = 'HEX. &nbsp;&nbsp;&nbsp;&nbsp;' + document.querySelector('#colorpicker').value;
+		    	hexcolor = document.querySelector('#hexcolor');
+		    	hexcolor.innerHTML = color;
+			});
+  };*/
+  $(function(){ 
+      $(".center").slick({
+        dots: false,
+        infinite: true,
+        centerMode: true,
+		centerPadding: "0",
+		autoplay: true,
+        slidesToShow: 5,
+        slidesToScroll: 2,
+        prevArrow: '<button type="button" data-role="none" class="arrow-left" aria-label="Previous" tabindex="0" role="button"><img src="img/arrow-left.png"</button>',
+        nextArrow: '<button type="button" data-role="none" class="arrow-right" aria-label="Next" tabindex="0" role="button"><img src="img/arrow-right.png"></button>'
+      });
+})
+	</script>
+	<script type="text/javascript">
+	/*	$(function() {
+			var possibleSizes = [
+				size1 = {
+					width : 285,
+					height: 390
+				},
+
+				size2 = {
+					width: 390,
+					height: 390
+				},
+
+				size3 = {
+					width: 105,
+					height: 390
+				},
+
+				size4 = {
+					width: 190,
+					height: 390
+				}
+			]
+
+			var photos = [
+				'img/1.png',
+				'img/2.png',
+				'img/3.png',
+				'img/4.png',
+				'img/5.png',
+				'img/6.png',
+			]
+			console.log(photos);
+			var totalWidthCount = 0;
+			do {
+				var newContainer = Math.floor(Math.random() * 4) + 1;
+				var width = possibleSizes[newContainer-1].width;
+				if (newContainer == 1 || newContainer == 4) { // Если маленький контейнер
+					if ((totalWidthCount + width) < (1000)) {
+						var newPhoto = '<div class="img-container"><a href="#"><img src="' + photos[0] + '"></a><a href="#"><img src="' + photos[1] + '"></a></div>';						
+						$(newPhoto).find('.img-container').find('a').css( {'width' : width } );
+						$('.gallery').append(newPhoto);
+						photos.shift();
+						photos.shift();
+						totalWidthCount += width;
+						console.log(photos);
+					} else {
+						width = (1000 - totalWidthCount);
+						var newPhoto = '<div class="img-container"><a href="#"><img src="' + photos[0] + '"></a><a href="#"><img src="' + photos[1] + '"></a></div>';						
+						$('.gallery').append(newPhoto);
+						$(newPhoto).find('.img-container').find('a').css( {'width' : width } );
+						photos.shift();
+						photos.shift();
+						totalWidthCount = 0;
+						console.log(photos);
+					}
+				} else {
+					if (totalWidthCount + width < 1000) {
+						var newPhoto = '<div class="img-container"><a href="#"><img src="' + photos[0] + '"></a></div>';						
+						$('.gallery').append(newPhoto);
+						$(newPhoto).find('.img-container').find('a').css( {'width' : width } );
+						photos.shift();
+						totalWidthCount += width;
+						console.log(photos);
+					} else {
+						width = (1000 - totalWidthCount);
+						var newPhoto = '<div class="img-container"><a href="#"><img src="' + photos[0] + '"></a></div>';						
+						$(newPhoto).find('.img-container').find('a').css( {'width' : width } );
+						$('.gallery').append(newPhoto);
+						photos.shift();
+						totalWidthCount = 0;
+						console.log(photos);
+					}
+				}
+			} while (photos.length > 0);
+		});*/
+	</script>
+</body>
+</html>
