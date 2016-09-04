@@ -888,6 +888,30 @@ footer .links {
 	margin-top: 135px;
 }
 
+@keyframes left-right {
+	from {
+		transform: rotate(0deg);
+	}
+	25% {
+		transform: rotate(-10deg);
+	}
+	50% {
+		transform: rotate(0deg);
+	}
+	75% {
+		transform: rotate(10deg)
+	}
+	to {
+		transform: rotate(0deg);
+	}
+
+}
+
+footer .links a img:hover {
+	animation-timing-function: ease-in-out;
+	animation: left-right 0.5s infinite;
+}
+
 footer .links img {
 	margin: 10px;
 }
